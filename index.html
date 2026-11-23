@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Victor Roland — Developer, Cybersecurity Enthusiast and Technology Innovator.">
+    <title>Victor Roland | Developer & Cybersecurity Enthusiast</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #07110e;
+            color: #e8f5ee;
+            line-height: 1.7;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: #091813;
+            border-bottom: 1px solid #174d36;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .logo {
+            color: #39e58c;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 17px;
+        }
+
+        nav a {
+            font-size: 14px;
+            color: #c5d8ce;
+        }
+
+        nav a:hover {
+            color: #39e58c;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            max-width: 750px;
+        }
+
+        .tag {
+            color: #39e58c;
+            letter-spacing: 3px;
+            font-size: 13px;
+        }
+
+        h1 {
+            font-size: clamp(38px, 7vw, 68px);
+            line-height: 1.15;
+            margin: 18px 0;
+        }
+
+        h1 span,
+        h2 span {
+            color: #39e58c;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 22px;
+        }
+
+        p {
+            color: #b9cfc3;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 12px 10px 0 0;
+            padding: 12px 22px;
+            border: 1px solid #39e58c;
+            border-radius: 5px;
+            color: #39e58c;
+            font-weight: bold;
+        }
+
+        .button.primary {
+            background: #39e58c;
+            color: #07110e;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        .section-dark {
+            background: #0b1b14;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 18px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: #10251b;
+            border: 1px solid #1b4933;
+            border-radius: 9px;
+            padding: 23px;
+        }
+
+        .card h3 {
+            color: #39e58c;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin-bottom: 0;
+        }
+
+        .skill {
+            display: inline-block;
+            padding: 7px 12px;
+            margin: 5px;
+            border: 1px solid #286044;
+            border-radius: 20px;
+            color: #ccebd8;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #091813;
+            color: #8fa99a;
+        }
+
+        .green {
+            color: #39e58c;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 15px 5%;
+            }
+
+            nav {
+                gap: 10px;
+            }
+
+            nav a {
+                font-size: 12px;
+            }
+
+            section {
+                padding: 55px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="#home">VICTOR<span>.</span></a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#training">Training</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="tag">WELCOME TO MY DIGITAL SPACE</div>
+            <h1>Hi, I'm Victor <span>Roland.</span></h1>
+            <h2>Developer | Cybersecurity Enthusiast | Technology Innovator</h2>
+            <p>I love to develop things, write code and explore technology. My ambition is to build innovative solutions
+                that solve real-world problems.</p>
+            <a class="button primary" href="#projects">Explore My Work</a>
+            <a class="button" href="#contact">Contact Me</a>
+        </div>
+    </section>
+
+    <section class="section-dark" id="about">
+        <h2>About <span>Me</span></h2>
+        <p>I'm Victor Obelejor Roland, a Computer Science student passionate about software development, cybersecurity
+            and artificial intelligence.</p>
+        <p>I enjoy learning, experimenting with technology and building practical projects. My long-term vision is to
+            become a recognised technology innovator and build solutions that make a difference.</p>
+        <div class="cards">
+            <div class="card">
+                <h3>Education</h3>
+                <p>B.Sc. Computer Science</p>
+                <p>Federal University of Environment and Technology, Ogoni</p>
+                <p>Level 100</p>
+            </div>
+            <div class="card">
+                <h3>Experience</h3>
+                <p>Teacher and IT Support Staff</p>
+                <p>2022–2024</p>
+                <p>Data Processing and Basic Science</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My <span>Skills</span></h2>
+        <p>These are areas I have experience in or am currently learning.</p>
+        <div>
+            <span class="skill">Python</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Computer Networking</span>
+            <span class="skill">Cybersecurity</span>
+            <span class="skill">Penetration Testing</span>
+            <span class="skill">HTML5</span>
+            <span class="skill">CSS3</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Artificial Intelligence</span>
+            <span class="skill">Prompt Engineering</span>
+            <span class="skill">IT Support</span>
+        </div>
+    </section>
+
+    <section class="section-dark" id="projects">
+        <h2>My <span>Projects</span></h2>
+        <div class="cards">
+            <div class="card">
+                <h3>File Encryptor</h3>
+                <p>A Python project designed to encrypt files and help protect their contents.</p>
+                <p class="green">Technology: Python</p>
+                <p>Project status: In development</p>
+            </div>
+            <div class="card">
+                <h3>Personal Portfolio</h3>
+                <p>This website introduces my background, skills, projects and technology interests.</p>
+                <p class="green">Technology: HTML, CSS and JavaScript</p>
+                <p>Project status: In development</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="training">
+        <h2>Training & <span>Certifications</span></h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Cisco Networking Academy</h3>
+                <p>Introduction to Cybersecurity — In progress</p>
+            </div>
+            <div class="card">
+                <h3>CCNA Networking</h3>
+                <p>Networking studies — In progress</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-dark" id="services">
+        <h2>What I <span>Offer</span></h2>
+        <div class="cards">
+            <div class="card">
+                <h3>IT Support</h3>
+                <p>Basic computer troubleshooting and technical support.</p>
+            </div>
+            <div class="card">
+                <h3>Cybersecurity Awareness</h3>
+                <p>Basic security awareness and guidance on safer technology practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Let's <span>Connect</span></h2>
+        <p>Interested in technology, collaboration or discussing a project? Reach out to me.</p>
+        <p>Email: <a class="green" href="mailto:victoroland696@gmail.com">victoroland696@gmail.com</a></p>
+        <p>WhatsApp: <a class="green" href="https://wa.me/2349015825696">Chat with me</a></p>
+        <p>GitHub: <a class="green" href="https://github.com/Victoroland" target="_blank">Victoroland</a></p>
+        <p>LinkedIn: <a class="green" href="https://www.linkedin.com/in/victor-roland-7567582aa/" target="_blank">My
+                LinkedIn profile</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Victor Roland. Built with passion for technology.</p>
+    </footer>
+</body>
+
+</html>
